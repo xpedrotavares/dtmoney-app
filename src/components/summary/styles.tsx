@@ -17,5 +17,18 @@ export const Container = styled.div`
       align-items: center;
       justify-content: space-between;
     }
+
+    strong {
+      display: block;
+      margin: 1rem;
+      font-size: 2rem;
+      font-weight: 500;
+      line-height: 3rem;
+    }
+
+    &.highlight-background {
+      background: var(--green);
+      color:#FFF;
+    }
   }
 `
